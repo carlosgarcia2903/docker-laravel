@@ -1,0 +1,17 @@
+
+
+Se dercago repositorios desde gitgub:
+
+https://github.com/hanieas/Docker-Laravel/tree/master
+
+How to Install and Run the Project:
+
+git clone git@github.com:hanieas/Docker-Laravel.git
+docker-compose exec app composer install
+Copy .env.example to .env
+docker-compose build
+docker compose up -d
+You can see the project on 127.0.0.1:8080
+
+install composer in docker.
+
